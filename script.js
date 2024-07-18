@@ -11,7 +11,8 @@ createFormBtn.addEventListener('click', () => {
     createFormModal.style.display = 'block';
 });
 
-document.getElementById('create-form-submit').addEventListener('click', () => {
+document.getElementById('create-form-submit').addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default form submission
     let formName = document.getElementById('form-name').value;
     let formDescription = document.getElementById('form-description').value;
     createForm(formName, formDescription);
@@ -23,12 +24,14 @@ loadFormBtn.addEventListener('click', () => {
     loadFormModal.style.display = 'block';
 });
 
-document.getElementById('load-form-submit').addEventListener('click', () => {
+document.getElementById('load-form-submit').addEventListener('click', (e) => {
+    e.preventDefault(); // Prevent default form submission
     let formId = document.getElementById('form-id').value;
     loadForm(formId);
     loadFormModal.style.display = 'none';
 });
 
+//... rest of the code remains the same...
 // Create form function
 function createForm(formName, formDescription) {
     let form = {
