@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#form-builder-container {
+    margin-top: 20px;
+}
+
+.form-builder-element {
+    margin-bottom: 10px;
+}
+
+.form-builder-element label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-builder-element input, .form-builder-element textarea, .form-builder-element select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-builder-element input[type="checkbox"] {
+    width: auto;
+    margin: 0 10px 0 0;
+}
+
+.form-builder-element button[type="button"] {
+    margin-top: 10px;
+}
+
+.form-builder-element-remove {
+    float: right;
+    cursor: pointer;
+}
+
+.form-builder-element-remove:hover {
+    color: #red;
+}
+
+.form-builder-element-add {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.form-builder-element-add:hover {
+    color: #337ab7;
+}
+
+.modal-body {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.form-builder-preview {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form-builder-preview label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-builder-preview input, .form-builder-preview textarea, .form-builder-preview select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
