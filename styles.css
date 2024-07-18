@@ -19,7 +19,7 @@ body {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 .form-builder-element input[type="checkbox"] {
@@ -37,7 +37,7 @@ body {
 }
 
 .form-builder-element-remove:hover {
-    color: #red;
+    color: red;
 }
 
 .form-builder-element-add {
