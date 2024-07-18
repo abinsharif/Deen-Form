@@ -11,6 +11,14 @@ createFormBtn.addEventListener('click', () => {
     createFormModal.style.display = 'block';
 });
 
+createFormBtn.addEventListener('click', () => {
+    createFormModal.classList.add('show');
+  });
+  
+  loadFormBtn.addEventListener('click', () => {
+    loadFormModal.classList.add('show');
+  });
+
 document.getElementById('create-form-submit').addEventListener('click', (e) => {
     e.preventDefault(); // Prevent default form submission
     let formName = document.getElementById('form-name').value;

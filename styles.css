@@ -72,3 +72,16 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+#create-form-modal, #load-form-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  #create-form-modal.show, #load-form-modal.show {
+    display: block;
+  }
