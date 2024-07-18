@@ -6,19 +6,17 @@ let createFormModal = document.getElementById('create-form-modal');
 let loadFormModal = document.getElementById('load-form-modal');
 let formElements = [];
 
-// Create form modal events
-createFormBtn.addEventListener('click', () => {
-    createFormModal.style.display = 'block';
-});
-
+// Create form modal event
 createFormBtn.addEventListener('click', () => {
     createFormModal.classList.add('show');
-  });
-  
-  loadFormBtn.addEventListener('click', () => {
-    loadFormModal.classList.add('show');
-  });
+});
 
+// Load form modal event
+loadFormBtn.addEventListener('click', () => {
+    loadFormModal.classList.add('show');
+});
+
+//... rest of the code remains the same...
 document.getElementById('create-form-submit').addEventListener('click', (e) => {
     e.preventDefault(); // Prevent default form submission
     let formName = document.getElementById('form-name').value;

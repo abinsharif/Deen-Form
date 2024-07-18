@@ -15,7 +15,7 @@ body {
     margin-bottom: 5px;
 }
 
-.form-builder-element input, .form-builder-element textarea, .form-builder-element select {
+.form-builder-element input,.form-builder-element textarea,.form-builder-element select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -66,21 +66,22 @@ body {
     margin-bottom: 5px;
 }
 
-.form-builder-preview input, .form-builder-preview textarea, .form-builder-preview select {
+.form-builder-preview input,.form-builder-preview textarea,.form-builder-preview select {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 #create-form-modal, #load-form-modal {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     display: none;
-  }
+}
   
   #create-form-modal.show, #load-form-modal.show {
     display: block;
